@@ -1,16 +1,7 @@
-{
-  "name": "finley-sms-gpt",
-  "version": "1.0.0",
-  "description": "SMS-to-GPT bridge for Finley (TalentEarthStudios)",
-  "type": "module",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
-  "dependencies": {
-    "express": "^4.19.2",
-    "body-parser": "^1.20.2",
-    "openai": "^3.3.0",
-    "twilio": "^4.15.3"
-  }
-}
+"dependencies": {
+  "express": "^4.19.2",
+  "openai":  "^4.25.0",
+  "twilio":  "^4.15.3"
+},
+"type": "module",
+"scripts": { "start": "node index.js" }
