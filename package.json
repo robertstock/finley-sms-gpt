@@ -1,7 +1,9 @@
-"dependencies": {
-  "express": "^4.19.2",
-  "openai":  "^4.25.0",
-  "twilio":  "^4.15.3"
-},
-"type": "module",
-"scripts": { "start": "node index.js" }
+{
+  "type": "module",
+  "scripts": { "start": "node index.js" },
+  "dependencies": {
+    "express": "^4.19.2",
+    "openai": "^4.25.0",
+    "twilio": "^4.15.3"
+  }
+}
